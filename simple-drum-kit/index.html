@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trap Drums</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
+    name='viewport' />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="icon" type="image/png" href="src/img/dice.png">
+    <link rel="shortcut icon" type="image/x-icon" href="src/img/icon-16x16.ico" />
+    <link rel="shortcut icon" type="image/png" href="src/img/icon-128x128.png" sizes="128x128" />
+    <link rel="shortcut icon" type="image/png" href="src/img/icon-196x196.png" sizes="196x196" />
+    <link rel="apple-touch-icon" href="src/img/icon-60x60.png" sizes="60x60" />
+    <link rel="apple-touch-icon" href="src/img/icon-76x76.png" sizes="76x76" />
+    <link rel="apple-touch-icon" href="src/img/icon-114x114.png" sizes="114x114" />
+    <link rel="apple-touch-icon" href="src/img/icon-120x120.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="src/img/icon-144x144.png" sizes="144x144" />
+    <link rel="apple-touch-icon" href="src/img/icon-152x152.png" sizes="152x152" />
+    <meta name="application-name" content="Trap Drums" />
+
+  </head>
+  <body>
+
+    <div class="portrait">
+      <p><i class="fas fa-sync-alt"></i> Rotate device</p>
+    </div>
+
+    <div class="container">
+
+      <div class="row1">
+        <div class="kick" id="drum"><span id="name">Kick</span><span id="key">G</span></div>
+        <div class="hat" id="drum"><span id="name">Hat</span><span id="key">H</span></div>
+        <div class="openhat" id="drum"><span id="name">Open Hat</span><span id="key">T</span></div>
+      </div>
+      <div class="row2">
+        <div class="snare" id="drum"><span id="name">Snare</span><span id="key">U</span></div>
+        <div class="clap" id="drum"><span id="name">Clap</span><span id="key">Y</span></div>
+        <div class="crash" id="drum"><span id="name">Crash</span><span id="key">J</span></div>
+      </div>
+
+    </div>
+
+    <audio id="key_103" preload="auto">
+      <source src="src/kick.wav" type="audio/wav">
+    </audio>
+    <audio id="key_104" preload="auto">
+      <source src="src/hat.wav" type="audio/wav">
+    </audio>
+    <audio id="key_116" preload="auto">
+      <source src="src/open-hat.wav" type="audio/wav">
+    </audio>
+    <audio id="key_117" preload="auto">
+      <source src="src/snare.wav" type="audio/wav">
+    </audio>
+    <audio id="key_121" preload="auto">
+      <source src="src/clap.wav" type="audio/wav">
+    </audio>
+    <audio id="key_106" preload="auto">
+      <source src="src/crash.wav" type="audio/wav">
+    </audio>
+
+    <script src="drums.js"></script>
+    <script src="https://kit.fontawesome.com/72eae054bb.js"></script>
+  </body>
+</html>

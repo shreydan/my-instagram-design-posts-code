@@ -1,0 +1,51 @@
+body,html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100vh;
+    height: 60vh;
+    background-image: url("sanfran.jpg");
+    background-size: cover;
+    background-position: top;
+    -webkit-box-shadow: 0px 0px 104px -53px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 104px -53px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 104px -53px rgba(0,0,0,0.75);
+}
+.hab {
+    position: absolute;
+    right: -13vh;
+    top: -15vh;
+    width: 30vh;
+    height: auto;
+    transform: scaleX(-1) rotate(-6deg);
+}
+#escape {
+    position: absolute;
+    top: -11vh;
+    left: -7vh;
+    font-size: 17vh;
+    margin: 0;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+#discover {
+    position: absolute;
+    bottom: -2vh;
+    right: -5vh;
+    color: black;
+    background-color: #fff;
+    font-size: 4vh;
+    font-weight: 500;
+    padding: 0.5em 1em;
+}

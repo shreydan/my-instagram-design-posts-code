@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shoes.</title>
+    <script src="https://kit.fontawesome.com/72eae054bb.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,900,900i&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="nav-bar">
+      <p id="logo">Shoes.</p>
+      <i class="fas fa-shopping-bag"></i>
+    </div>
+    <div class="display">
+      <img id= "shoe-img" src="yeezy700.png" alt="">
+      <p id="shoe-name">Yeezy 700</p>
+      <div class="shoe-list">
+        <i class="fas fa-chevron-up"></i>
+        <img src="jordan14.png" alt="">
+        <img id="current" src="yeezy700.png" alt="">
+        <img src="yeezy350.png" alt="">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+    <div class="options">
+      <div class="size">
+        <i class="fas fa-arrow-up" onclick="sizeup()"></i>
+        <p>Size: 10.0</p>
+        <i class="fas fa-arrow-down" onclick="sizedown()"></i>
+      </div>
+      <p id="cost">$320</p>
+      <button type="button" id="cart">Buy</button>
+    </div>
+  </body>
+</html>

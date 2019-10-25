@@ -1,0 +1,160 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  background-color: yellow;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 360px;
+  height: 640px;
+  background-color: #aeaeae;
+  overflow: hidden;
+}
+
+.tickets {
+  -webkit-box-shadow: 0px -19px 36px 9px rgba(0,0,0,0.85);
+  -moz-box-shadow: 0px -19px 36px 9px rgba(0,0,0,0.85);
+  box-shadow: 0px -19px 36px 9px rgba(0,0,0,0.85);
+  background-color: white;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  margin: 0;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  bottom: 20%;
+  padding: 0 20px 0 20px;
+  background: rgb(236,236,236);
+  background: linear-gradient(0deg, rgba(236,236,236,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+
+img {
+  width: 500px;
+  height: auto;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.fa-grip-lines {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+#buyt {
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+#l_heading {
+  font-size: 20px;
+  margin: 0;
+}
+.picker {
+
+  padding: 15px 5px 15px 5px;
+  margin: 0;
+  font-size: 20px;
+  border-radius: 10px;
+  border: solid 4px #383838;
+}
+.picker p {
+  margin: 0;
+}
+.location {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+
+#quantity_text {
+  font-size: 20px;
+  margin: 0;
+  width: 100%;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  font-size: 30px;
+  padding: 15px 0px 15px 0px;
+  border-radius: 10px;
+
+}
+
+.quantity p {
+  margin: 0;
+}
+
+.fa-minus {
+  position: absolute;
+  margin: 0;
+  left: 5%;
+  color: #f03a37;
+}
+.fa-plus {
+  position: absolute;
+  margin: 0;
+  right: 5%;
+  color: #70f547;
+}
+
+
+.total {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  font-size: 40px;
+}
+
+.total p {
+  margin: 0;
+}
+#total_text {
+  flex: 1;
+}
+
+
+.purchase {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: 27%;
+  text-align: center;
+  height: 60px;
+  width: 90%;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  background: rgb(26,134,226);
+  background: linear-gradient(0deg, rgba(26,134,226,1) 0%, rgba(0,212,255,1) 100%);
+  border-radius: 10px;
+}

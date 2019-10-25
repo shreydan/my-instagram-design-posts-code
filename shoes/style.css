@@ -1,0 +1,141 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Barlow', sans-serif;
+  position: relative;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #000;
+  top: 0;
+}
+
+#logo {
+  text-align: center;
+  font-size: 70px;
+  font-style: italic;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  font-weight: 900;
+}
+.nav-bar i {
+  position: absolute;
+  right: 2%;
+  color: white;
+  font-size: 35px;
+}
+
+.display {
+  width: 100%;
+
+  display: flex;
+  position: absolute;
+  background-color: #fff;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#shoe-img {
+  width: 60%;
+  height: auto;
+  position: relative;
+
+  z-index: 2;
+}
+#shoe-name {
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+  font-weight: 900;
+  color: black;
+  left: 10%;
+  font-size: 10vw;
+  margin: 0;
+}
+
+.shoe-list {
+  margin: 0;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 3%;
+}
+
+.shoe-list img {
+  width: 120px;
+  height: auto;
+}
+.shoe-list i {
+  font-size: 50px;
+}
+#current {
+  margin-right: 50px;
+}
+
+.options {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0px 10px 0px
+}
+
+.size {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  background-color: white;
+  padding: 0 10px 0 10px;
+  left: 0;
+}
+.size p {
+  font-size: 42px;
+  margin: 0;
+  margin: 0 35px 0 35px;
+}
+.fa-arrow-up, .fa-arrow-down {
+  font-size: 35px;
+  color: #1674d9;
+}
+
+#cost {
+  font-size: 60px;
+  color: white;
+  margin: 0;
+}
+#cart {
+  border: none;
+  background-color: #d9200f;
+  color: black;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  height: 100%;
+  font-size: 60px;
+  padding: 0 30px 0 30px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 900;
+}

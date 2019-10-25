@@ -1,0 +1,130 @@
+body, html {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.square {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+#square1 {
+    background-color: #f73b66;
+    transform: scale(1) perspective(50em) rotateX(-60deg);
+    animation: Z-rotate1 cubic-bezier(0.68, 0, 0.32, 0.99) infinite 5s;
+    animation-delay: 0.6s;
+}
+
+@keyframes Z-rotate1 {
+    0% {
+        transform: scale(1) perspective(50em) rotateX(-60deg) rotateZ(0deg);
+    }
+    100% {
+        transform: scale(1) perspective(50em) rotateX(-60deg) rotateZ(360deg);
+    }
+}
+
+#square2 {
+    background-color: #e3356d;
+    margin-top: 20px;
+    transform: scale(0.875) perspective(50em) rotateX(-60deg);
+    animation: Z-rotate2 cubic-bezier(0.68, 0, 0.32, 0.99) infinite 5s;
+    animation-delay: 0.5s;
+}
+@keyframes Z-rotate2 {
+    0% {
+        transform: scale(0.875) perspective(50em) rotateX(-60deg) rotateZ(0deg);
+    }
+    100% {
+        transform: scale(0.875) perspective(50em) rotateX(-60deg) rotateZ(360deg);
+    }
+}
+#square3 {
+    background-color: #d02f74;
+    margin-top: 30px;
+    transform: scale(0.75) perspective(50em) rotateX(-60deg);
+    animation: Z-rotate3 cubic-bezier(0.68, 0, 0.32, 0.99) infinite 5s;
+    animation-delay: 0.4s;
+}
+@keyframes Z-rotate3 {
+    0% {
+        transform: scale(0.75) perspective(50em) rotateX(-60deg) rotateZ(0deg);
+    }
+    100% {
+        transform: scale(0.75) perspective(50em) rotateX(-60deg) rotateZ(360deg);
+    }
+}
+#square4 {
+    background-color: #bc2a7b;
+    margin-top: 40px;
+    transform: scale(0.625) perspective(50em) rotateX(-60deg);
+    animation: Z-rotate4 cubic-bezier(0.68, 0, 0.32, 0.99) infinite 5s;
+    animation-delay: 0.3s;
+}
+@keyframes Z-rotate4 {
+    0% {
+        transform: scale(0.625) perspective(50em) rotateX(-60deg) rotateZ(0deg);
+    }
+    100% {
+        transform: scale(0.625) perspective(50em) rotateX(-60deg) rotateZ(360deg);
+    }
+}
+#square5 {
+    background-color: #a92483;
+    margin-top: 50px;
+    transform: scale(0.5) perspective(50em) rotateX(-60deg);
+    animation: Z-rotate5 cubic-bezier(0.68, 0, 0.32, 0.99) infinite 5s;
+    animation-delay: 0.2s;
+}
+@keyframes Z-rotate5 {
+    0% {
+        transform: scale(0.5) perspective(50em) rotateX(-60deg) rotateZ(0deg);
+    }
+    100% {
+        transform: scale(0.5) perspective(50em) rotateX(-60deg) rotateZ(360deg);
+    }
+}
+#square6 {
+    background-color: #951f8a;
+    margin-top: 60px;
+    transform: scale(0.375) perspective(50em) rotateX(-60deg);
+    animation: Z-rotate6 cubic-bezier(0.68, 0, 0.32, 0.99) infinite 5s;
+    animation-delay: 0.1s;
+}
+@keyframes Z-rotate6 {
+    0% {
+        transform: scale(0.375) perspective(50em) rotateX(-60deg) rotateZ(0deg);
+    }
+    100% {
+        transform: scale(0.375) perspective(50em) rotateX(-60deg) rotateZ(360deg);
+    }
+}
+#square7 {
+    background-color: #821991;
+    margin-top: 70px;
+    transform: scale(0.25) perspective(50em) rotateX(-60deg);
+    animation: Z-rotate7 cubic-bezier(0.68, 0, 0.32, 0.99) infinite 5s;
+}
+@keyframes Z-rotate7 {
+    0% {
+        transform: scale(0.25) perspective(50em) rotateX(-60deg) rotateZ(0deg);
+    }
+    100% {
+        transform: scale(0.25) perspective(50em) rotateX(-60deg) rotateZ(360deg);
+    }
+}

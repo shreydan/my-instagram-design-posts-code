@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>p5-draw</title>
+    <script src="p5_library/p5.js"></script>
+    <script src="sketch.js"></script>
+    
+    <style>
+        body,html {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .buttons {
+            width: 700px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn {
+            flex: 1;
+            border: none;
+            background: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px 0px 10px 0px;
+            font-size: 30px;
+            outline: none;
+        }
+
+        #clear_btn {
+            background-color: rgb(238, 34, 51);
+        }
+        #clear_btn:hover {
+            background-color: #eb3654;
+        }
+        #clear_btn:active {
+            background-color: #e62121;
+        }
+        #save_btn {
+            background-color: #189ce9;
+        }
+        #save_btn:hover {
+            background-color: #37aff5;
+        }
+        #save_btn:active {
+            background-color: #1186ca;
+        }
+        #color_btn {
+            background-color: #18e976;
+        }
+        #color_btn:hover {
+            background-color: #46f571;
+        }
+        #color_btn:active {
+            background-color: #11ca4f;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <div class="buttons">
+        <button id="clear_btn" class="btn" onclick="clearcanvas()">Clear</button>
+        <button id="color_btn" class="btn" onclick="color_randomizer()">Change Color</button>
+        <button id="save_btn" class="btn" onclick="save()">Save</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+body,html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #5c0d2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    float: left;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container div {
+    position: absolute;
+    margin: 0;
+    font-size: 8em;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    color: #fc465e;
+}
+#front {
+    color: 	#f6db5f;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.below {
+    opacity: 0;
+    transition-duration: 0.3s;
+}

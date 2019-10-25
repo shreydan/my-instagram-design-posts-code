@@ -1,0 +1,70 @@
+body,html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+#header {
+  z-index: 2;
+  font-size: 5vw;
+  color: white;
+  margin: 0;
+  margin-bottom: 12vh;
+  font-weight: 300;
+}
+#desc {
+  z-index: 2;
+  font-size: 3vh;
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 0 10% 0 10%;
+}
+
+a {
+  z-index: 2;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  margin-top: 7vh;
+  font-size: 2vh;
+}
+
+img {
+
+  position: relative;
+  z-index: 1;
+
+  bottom: -70vw;
+  mix-blend-mode: screen;
+  animation: rotation 60s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
